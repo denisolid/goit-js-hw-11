@@ -1,0 +1,63 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./vite-promo.css');
+@import url('./header.css');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#datetime-picker {
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.timer {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.timer .field {
+  margin: 0 10px;
+}
+
+.timer .value {
+  display: block;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.timer .label {
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+button[data-start] {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
